@@ -1,0 +1,28 @@
+
+    .inputs {
+      position: fixed;
+      top: 45%;
+      left: 33%;
+      font-size: 12pt;
+      font-family: verdana;
+      font-style: italic;
+      color: #333;
+      border: 1px dashed #3adf84;
+      padding: 10px;
+    }
+
+    #field {
+      border: 1px solid #be465a;
+      width: 305px;
+      font: 14px;
+      color: #187a45;
+    }
+
+    #button {
+      background: rgb(200, 231, 214);
+      border: 1px solid #be465a;
+      width: 70px;
+      text-align: center;
+      font: 14px;
+      color: #be465a;
+    }

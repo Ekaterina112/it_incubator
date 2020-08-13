@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> find max </title>
+
+</head>
+
+<body>
+    <script>
+        function findMax(arr) {
+            var max = 0;
+            for (var i = 0; i <= arr.length; i++) {
+                if (arr[i] >= max) {
+                    var max = arr[i];
+                }
+            }
+            return max
+        }
+        alert(findMax([1, 22, 678, 932, 45, 12345, 98764, 4, 5, 90]));
+    </script>
+</body>
+
+</html>
